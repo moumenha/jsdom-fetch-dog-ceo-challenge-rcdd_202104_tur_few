@@ -1,7 +1,7 @@
-const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+const imgs = "https://dog.ceo/api/breeds/image/random/4"
 const breedUrl = 'https://dog.ceo/api/breeds/list/all'
 
-  fetch(imgUrl)
+  fetch(imgs)
   .then(response => response.json())
   .then(result => {
     dogImages(result.message)
