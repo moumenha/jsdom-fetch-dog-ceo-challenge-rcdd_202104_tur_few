@@ -1,5 +1,3 @@
-CEO DOG
-
 document.addEventListener("DOMContentLoaded", function () {
 	const breedSection = document.getElementById("dog-breeds");
 	const dropdown = document.getElementById("breed-dropdown");
